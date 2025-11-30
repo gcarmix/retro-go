@@ -28,6 +28,8 @@
 #include "targets/vmu/config.h"
 #elif defined(RG_TARGET_CROKPOCKET)
 #include "targets/crokpocket/config.h"
+#elif defined(RG_TARGET_FREENOVE_ESP32_S3)
+#include "targets/freenove-esp32-s3/config.h"
 #else
 #warning "No target defined. Defaulting to ODROID-GO."
 #include "targets/odroid-go/config.h"
