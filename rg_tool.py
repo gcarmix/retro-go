@@ -11,9 +11,9 @@ import struct
 import time
 import zlib
 
-DEFAULT_TARGET = os.getenv("RG_TOOL_TARGET", "odroid-go")
-DEFAULT_BAUD = os.getenv("RG_TOOL_BAUD", "1152000")
-DEFAULT_PORT = os.getenv("RG_TOOL_PORT", "COM3")
+DEFAULT_TARGET = os.getenv("RG_TOOL_TARGET", "freenove-esp32-s3")
+DEFAULT_BAUD = os.getenv("RG_TOOL_BAUD", "921600")
+DEFAULT_PORT = os.getenv("RG_TOOL_PORT", "COM6")
 DEFAULT_APPS = os.getenv("RG_TOOL_APPS", "launcher retro-core prboom-go gwenesis fmsx")
 PROJECT_NAME = os.getenv("PROJECT_NAME", "Retro-Go")
 PROJECT_ICON = os.getenv("PROJECT_ICON", "assets/icon.raw")
